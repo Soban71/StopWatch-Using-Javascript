@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hammersmith+One&family=Itim&family=League+Spartan:wght@300;500&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Passions+Conflict&family=Permanent+Marker&family=Raleway&family=Source+Code+Pro&family=Unbounded:wght@200;300;400;500;600;800;900&display=swap');
+body{
+	text-align: center;
+	display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(bk.jpg);  
+  width: 100%;
+    height: 94vh;
+ color: white;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+#container{
+	padding: 4% 3%;
+	text-align: center;
+  color: white;
+  background-color: none;
+box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+.timedisplayer{
+  display: block;
+  background-color: black;
+  border-top: 3px solid transparent;
+  border-left: 9px solid #3C84AB;
+  border-right: 9px solid #3C84AB;
+  border-bottom: 18px solid #3C84AB;
+  padding: 70px 30px 70px 30px;
+  border-radius: 100%;
+ transform: scale(0.9);
+ opacity: .5s;
+}
+
+.timer{
+font-size: 1.8rem;
+font-family:font-family: 'Spectral', serif;
+font-weight: 300;
+
+}
+p{
+  text-align: center;
+   margin-top: 2rem;
+   font-family: 'Raleway', sans-serif;
+   letter-spacing: 0.1rem;
+   opacity: 0.3;
+}
+.startButton {
+  margin-top: 0.1rem;
+  padding: 16px 22px 16px 22px;
+ margin: 0.5rem 0.5rem 0rem 0.5rem;
+ opacity: 0.5;
+ cursor: pointer;
+ border-radius: 100%;
+ background-color: transparent;
+  border: 1px solid #3C84AB;
+ color: white;
+ font-size: 1.5rem;
+ transform: scale(0.8);
+}
+.startButton:hover{
+  border: none;
+ background-color: #3C84AB;
+  transition: .5s ease-in;
+}
+
+
+
+
+
